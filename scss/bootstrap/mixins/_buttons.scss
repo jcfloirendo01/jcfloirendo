@@ -1,0 +1,36 @@
+tem32\DriverStore\FileRepository\nvvad.inf_amd64_neutral_3332a5de65540083'
+     flq:                               {FILE_QUEUE_COPY}
+     flq:                                    CopyStyle      - 0x04000000
+     flq:                                    {FILE_QUEUE_COPY}
+     flq:                                         CopyStyle      - 0x04000000
+     flq:                                         SourceRootPath - 'C:\Windows\System32\DriverStore\FileRepository\nvvad.inf_amd64_neutral_3332a5de65540083'
+     flq:                                         SourceFilename - 'nvaudcap64v.dll'
+     flq:                                         TargetDirectory- 'C:\Windows\system32'
+     flq:                                         TargetFilename - 'nvaudcap64v.dll'
+     flq:                                         SourceDesc     - 'NVVAD Driver Disk'
+     flq:                                    {FILE_QUEUE_COPY exit(0x00000000)}
+     flq:                               {FILE_QUEUE_COPY exit(0x00000000)}
+     flq:                               QueueSingleCopy...
+     flq:                               Inf     : 'c:\windows\system32\driverstore\filerepository\nvvad.inf_amd64_neutral_3332a5de65540083\nvvad.inf'
+     flq:                               SourceInf: 'c:\windows\system32\driverstore\filerepository\nvvad.inf_amd64_neutral_3332a5de65540083\nvvad.inf'
+     flq:                               SourceSection: [sourcedisksfiles]
+     flq:                               Source root path based on SourceInf
+     flq:                               SourceRootPath: 'C:\Windows\System32\DriverStore\FileRepository\nvvad.inf_amd64_neutral_3332a5de65540083'
+     flq:                               {FILE_QUEUE_COPY}
+     flq:                                    CopyStyle      - 0x04000000
+     flq:                                    {FILE_QUEUE_COPY}
+     flq:                                         CopyStyle      - 0x04000000
+     flq:                                         SourceRootPath - 'C:\Windows\System32\DriverStore\FileRepository\nvvad.inf_amd64_neutral_3332a5de65540083'
+     flq:                                         SourceFilename - 'nvaudcap32v.dll'
+     flq:                                         TargetDirectory- 'C:\Windows\syswow64'
+     flq:                                         TargetFilename - 'nvaudcap32v.dll'
+     flq:                                         SourceDesc     - 'NVVAD Driver Disk'
+     flq:                                    {FILE_QUEUE_COPY exit(0x00000000)}
+     flq:                               {FILE_QUEUE_COPY exit(0x00000000)}
+     inf:                          {Install Inf Section [NVVAD_WaveExtensible64.NT] exit (0x00000000)}
+     inf:                          {Install Inf Section [KS.Registration]}
+     inf:                               CopyFiles=KSProxy.Files,KSDriver.Files  (ks.inf line 12)
+!    inf:                               Empty Section! [KSProxy.Files]
+!    inf:                               Empty Section! [KSDriver.Files]
+     inf:                               DelFiles=KSProxy.DelFiles  (ks.inf line 13)
+!    inf:                               Empty Section!
